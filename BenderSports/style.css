@@ -1,0 +1,46 @@
+html,body{
+    height:100%;
+}
+
+.flex-fill {
+    flex:1;
+}
+
+#left-div {
+    background-image: linear-gradient(to left bottom, #242320, #464542, #6b6a67, #92918e, #bcbbb8, #d0cbbc, #e5dac1, #fbeac5, #fde2a3, #ffd980, #ffd15c, #ffc830);
+}
+
+.form-group {
+    margin: 0px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.info {
+    padding: 70px;
+}
+
+.register-div {
+    margin-top: 50px;
+}
+
+input {
+    margin: 8px;
+}
+
+label {
+    padding: 5px;
+}
+
+#login-btn {
+    margin: 8px;
+}
+
+#quote {
+ padding: 20px;
+}
+
+#reg-btn {
+    padding:25px;
+}

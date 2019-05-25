@@ -1,0 +1,43 @@
+
+#nav-logo {
+    width: 10%;
+    padding: 0px;
+}
+
+li {
+    padding: 20px;
+}
+
+li a:hover {
+    color: blue;
+}
+
+/* Registration Form*/
+.container {
+    padding: 16px;
+}
+
+/*full-width input fields*/
+input[type=email], input[type=password], input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=email]:focus, input[type=password]:focus, input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/*overwrite default styles of hr */
+hr { 
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+li a {
+    font-size: 20px;
+}

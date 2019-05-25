@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bender Sports</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid d-flex h-100">
+
+    <div class="row flex-grow-1">
+      <!--Left Side-->
+        <div id="left-div" class="col-6">
+        
+            <h1 class="info display-4 text-center text-white">Get discovered</h1>
+    
+            <h1 class="info display-4 text-center text-white">Watch sports highlights</h1>
+
+            <h1 class="info display-4 text-center text-white">Connect to thousands of athletes and recruiters</h1>
+            
+        </div>
+
+        <!--Right side-->
+          <div class="col-6 text-center bg-dark">
+
+              <!--login form-->
+              <div class="d-flex flex-row justify-content-center form-group">
+              <form class="form-inline" action="">
+              <input type="email" class="form-control" id="usr" placeholder="Email">
+         
+              <input type="password" class="form-control" id="pwd" placeholder="Password">
+                  <button id="login-btn" type="submit" class="btn btn-outline-primary">Login</button>
+                  </form>
+              </div>
+              <div class="d-flex flex-row justify-content-center">
+                <label class="form-check-label p-2 text-white">
+                  <input class="form-check-input" type="checkbox"> Remember me 
+                  </label>
+            </form>
+            <a href="#" class="p-2">Forgot password?</a>
+            </div>
+
+            <div class="register-div">
+            <h1 id="quote" class="display-4 text-white">"You miss 100% of the shots you don't take" - Wayne Gretsky</h1>
+             <button onclick="window.location.href = 'registration.html';" id="reg-btn" type="submit" class="btn btn-primary btn-lg">Register</button>
+              </div>
+            </div>
+
+    </div>
+  
+
+</div>
+</body>
+</html>
