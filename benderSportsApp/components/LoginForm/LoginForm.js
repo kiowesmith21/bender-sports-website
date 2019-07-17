@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, TouchableOpacity, TextInput, StyleSheet } from 'react-native';
 
-export default class Inputs extends Component {
+export default class LoginForm extends Component {
 
    state = {
       email: '',
