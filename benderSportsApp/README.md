@@ -4,8 +4,8 @@
 ```
 npm install
 ```
-Make sure that you have the expo app installed on your iphone
-Note: In the browser if **connection LAN** doesn't work then try using **connection tunnel** instead
+##### Make sure that you have the expo app installed on your iphone
+##### Note: In the browser if **connection LAN** doesn't work then try using **connection tunnel** instead
 
 ## 2. Then you want to run start the expo client on your laptop by running the command:
 ```
