@@ -1,9 +1,11 @@
 //import react  and react-native components
 import React, {Component} from 'react';
-import {AppRegistry, Text, View, StyleSheet, Image, TextInput} from 'react-native';
-import { withOrientation } from 'react-navigation';
+import {View, StyleSheet, Image} from 'react-native';
 
-import Inputs from './Inputs/Inputs';
+import BSLogo from './bs-logo.png';
+
+import LoginForm from './components/LoginForm/LoginForm';
+
 
 export default class App extends Component{
   
@@ -16,12 +18,8 @@ export default class App extends Component{
       //<Component1 /> is the js file being loaded into the View
       //REMEMBER THE SPACE BY THE SLASH
       <View style={styles.container}>
-
-        <Image source={require('./bs-logo.png')} style={styles.logo}/>
-
-        <Inputs />
-
-        
+        <Image source={BSLogo} style={styles.logo}/>
+        <LoginForm/>
       </View>
 
     );
@@ -30,15 +28,12 @@ export default class App extends Component{
 }
 
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#14A6FA',
     alignItems: 'center',
-    
   },
-
   logo: {
     width: 200,
     height: 200,
@@ -46,4 +41,3 @@ const styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('bendersportsapp', () => App);
